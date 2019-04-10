@@ -4,6 +4,7 @@ num = ARGV[0].to_i
 num.times do | i |
     # la condicion es para evaluar si es * o es un .
     if i.even?
+        # no permite si es par i
       print "*"
     else
       print "."
